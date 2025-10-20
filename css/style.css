@@ -1,0 +1,70 @@
+html, body{
+    background: #2c2c54 ;
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #0e0e0e;
+    background-image: url("../img/shape_back_one.png");
+    background-repeat: no-repeat;
+    background-size: cover, 70%;
+    background-position: 0% center, 100% center;
+}
+.main{
+    display: flex;
+    align-items: center;
+        width: 100%;
+    height: 100%;
+}
+.main-left {
+
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 10%;
+}
+.main-left__title {
+    display: flex;
+    margin-bottom: 30px;
+}
+.main-left__logo{
+    margin-right: 15px;
+    width: 100px;
+    height: 100px;
+}
+.main-left__title-inner {
+    
+}
+.main-left__title-text {
+    margin-bottom: 15px;
+    font-style: italic;
+    font-size: 50px;
+}
+.main-left__title-p {
+}
+.main-left__undertext {
+    margin-bottom: 30px;
+}
+.main-left__button {
+    max-width: 200px;
+    padding: 8px;
+    border-radius: 15px;
+    color: rgb(189, 79, 189);
+    background-color: white;
+
+}
+.main-right {
+    display: flex;
+    flex-direction: column;
+}
+.main-right__card {
+    height: 50vh;
+    min-width: 50vh;
+    max-width: 50vh;
+}
+.main-right__card-title {
+}
+.main-right__card-button {
+}
