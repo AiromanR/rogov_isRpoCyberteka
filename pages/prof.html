@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>КИБЕРТЕКА НА ПРОФСОЮЗНОЙ</title>
+   <link rel="stylesheet" href="../css/reset.css">
+   <link rel="stylesheet" href="../css/fonts.css">
+   <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="bodyProf">
+   <header class="headerProf">
+      <nav class="header__nav">
+         <ul class="header__list">
+            <li class="header__item">
+               <a class="header__item-link" href="#">Главная</a>
+            </li>
+            <li class="header__item">
+               <a class="header__item-link" href="#">Зоны</a>
+            </li>
+            <li class="header__item">
+               <a class="header__item-link" href="#">Цены</a>
+            </li>
+            <li class="header__item">
+               <a class="header__item-link" href="#">Фото</a>
+            </li>
+            <li class="header__item">
+               <a class="header__item-link" href="#">Акции</a>
+            </li>
+            <li class="header__item">
+               <a class="header__item-link" href="#">Контакты</a>
+            </li>
+         </ul>
+      </nav>
+      <div class="header__wrapper">
+         <div class="header__brand">
+            <a class="header__logo" href="../index.html">
+               <img src="../img/logo.png" alt="Логотип Кибертека">
+            </a>
+            <div class="header__title">
+               <h1 class="header__title-main">КИБЕРТЕКА</h1>
+               <p class="header__title-sub">НА ПРОФСОЮЗНОЙ</p>
+            </div>
+         </div>
+         <div class="header__contacts">
+            <ul class="header__contacts-list">
+               <li class="header__contacts-item">&#9658; Профсоюзная улица 22/10к1</li>
+               <li class="header__contacts-item">&#9658; Работаем круглосуточно!</li>
+               <li class="header__contacts-item">&#9658; 8 977 320 88 88</li>
+            </ul>
+            <a href="#" class="header__btn button">Забронировать</a>
+         </div>
+      </div>
+   </header>
+   <main class="mainpProf">
+      <section class="zones">
+         <div class="container">
+            <div class="zones__wrapper">
+               <fieldset class="zones__fieldset">
+                  <legend class="zones__legend">РАЗНЫЕ ЗОНЫ С РАЗНЫМИ УСЛОВИЯМИ</legend>
+                  <div class="zones__grid">
+                     <div class="zones__card zones__card--standard">
+                        <div class="zones__card-header">
+                           <span class="zones__card-descriptor">Игровой ПК и переферия</span>
+                           <h3 class="zones__card-title">СТАНДАРТ</h3>
+                        </div>
+                        <div class="zones__card-image">
+                           <img src="../img/standart_prof.png" alt="Стандартная зона">
+                        </div>
+                        <p class="zones__card-desc">Общая зона</p>
+                        <a href="#" class="zones__card-btn button--purple">Подробнее &rarr;</a>
+                     </div>
+                     <div class="zones__card zones__card--premium">
+                        <div class="zones__card-header">
+                           <span class="zones__card-descriptor">Монитор больше + ПК мощнее</span>
+                           <h3 class="zones__card-title">СТАНДАРТ+</h3>
+                        </div>
+                        <div class="zones__card-image">
+                           <img src="../img/standart_plus_prof.png" alt="Премиум зона">
+                        </div>
+                        <p class="zones__card-desc">Лучшие места</p>
+                        <a href="#" class="zones__card-btn button--lightblue">Подробнее &rarr;</a>
+                     </div>
+
+                     <div class="zones__card zones__card--console">
+                        <div class="zones__card-header">
+                           <span class="zones__card-descriptor">Подписка PS+ и 2 геймпада</span>
+                           <h3 class="zones__card-title">ПРИСТАВКА</h3>
+                        </div>
+                        <div class="zones__card-image">
+                           <img src="../img/ps_prof.png" alt="Консольная зона">
+                        </div>
+                        <p class="zones__card-desc">Диван + PS5</p>
+                        <a href="#" class="zones__card-btn button--blue">Подробнее &rarr;</a>
+                     </div>
+                  </div>
+               </fieldset>
+            </div>
+         </div>
+      </section>
+
+      <section class="gallery">
+         <div class="gallery__slider">
+            <div class="gallery__slides">
+               <div class="gallery__slide">
+                  <img src="../img/photo_one.png" alt="Интерьер кибертеки">
+               </div>
+               <div class="gallery__slide">
+                  <img src="../img/photo_one.png" alt="Игровая зона">
+               </div>
+               <div class="gallery__slide">
+                  <img src="../img/photo_one.png" alt="Комфортные места">
+               </div>
+            </div>
+            <div class="gallery__dots">
+               <div class="gallery__dot gallery__dot--active"></div>
+               <div class="gallery__dot"></div>
+               <div class="gallery__dot"></div>
+               <div class="gallery__dot"></div>
+               <div class="gallery__dot"></div>
+            </div>
+         </div>
+      </section>
+
+      <section class="booking">
+
+         <div class="booking__wrapper">
+            <div class="booking__plashka">
+               <fieldset class="booking__fieldset">
+                  <div class="booking__armor">
+                     <img class="booking__armor-img" src="../img/bulletproof.png" alt="Бронежилет">
+                     <img class="booking__armor-img booking__armor-img--helmet" src="../img/helmet.png" alt="Шлем">
+                  </div>
+                  <legend class="booking__legend">Забронируй место</legend>
+                  <form class="booking__form">
+                     <input class="booking__form-input" type="text" name="name" id="name" placeholder="Имя">
+                     <input class="booking__form-input" type="date" name="date" id="date">
+                     <input class="booking__form-input" type="time" name="time" id="time">
+                     <input class="booking__form-input" type="number" name="guests" id="guests"
+                        placeholder="Количество гостей">
+                     <input class="booking__form-input" type="tel" name="tel" id="tel" placeholder="Номер телефона">
+                     <textarea class="booking__form-textarea" name="wishes" id="wishes">Ваши пожелания</textarea>
+                  </form>
+                  <legend class="booking__legend booking__legend--bottom">
+                     <a href="#" class="booking__btn button">Забронировать</a>
+                  </legend>
+               </fieldset>
+            </div>
+         </div>
+      </section>
+
+      <section class="promo">
+         <h2 class="promo__title">АКЦИИ И СКИДКИ НА ЛЮБОЙ ВКУС</h2>
+         <div class="promo__grid">
+            <div class="promo__card promo__card--code">
+               <h3 class="promo__card-title">ПРОМОКОД CIBER</h3>
+               <a href="#" class="promo__card-link">Подробнее &rarr;</a>
+            </div>
+
+            <div class="promo__card promo__card--tournament promo__card--cs">
+               <h3 class="promo__card-title">КИБЕРИФИКАЦИЯ CS</h3>
+               <a href="#" class="promo__card-link">Хочу участвовать &rarr;</a>
+            </div>
+
+            <div class="promo__card promo__card--tournament promo__card--dota">
+               <h3 class="promo__card-title">КИБЕРИФИКАЦИЯ DOTA</h3>
+               <a href="#" class="promo__card-link">Хочу участвовать &rarr;</a>
+            </div>
+
+            <div class="promo__card promo__card--weekdays">
+               <h3 class="promo__card-title">СКИДКИ ПН-СРЕДА</h3>
+               <a href="#" class="promo__card-link">Забронировать &rarr;</a>
+            </div>
+
+            <div class="promo__card promo__card--social">
+               <h3 class="promo__card-title">ГРУППА VK</h3>
+               <a href="#" class="promo__card-link">Перейти в группу &rarr;</a>
+            </div>
+
+            <div class="promo__card promo__card--snacks">
+               <h3 class="promo__card-title">СНЕКИ И НАПИТКИ</h3>
+               <a href="#" class="promo__card-link">Подробнее &rarr;</a>
+            </div>
+
+            <div class="promo__card promo__card--birthday">
+               <h3 class="promo__card-title">ДЕНЬ РОЖДЕНИЯ</h3>
+               <a href="#" class="promo__card-link">Забронировать &rarr;</a>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <div class="footer__wrapper">
+         <div class="footer__plashka">
+            <h2 class="footer__title">Как нас найти?</h2>
+            <div class="footer__transport">
+               <div class="footer__transport-item">
+                  <p class="footer__transport-text">Метро Профсоюзная</p>
+                  <div class="footer__transport-info">
+                     <div class="footer__transport-dot footer__transport-dot--red"></div>
+                     <span class="footer__transport-time">4 минуты пешком</span>
+                  </div>
+               </div>
+               <div class="footer__transport-item">
+                  <p class="footer__transport-text">Метро Академическая</p>
+                  <div class="footer__transport-info">
+                     <div class="footer__transport-dot footer__transport-dot--orange"></div>
+                     <span class="footer__transport-time">5 минут пешком</span>
+                  </div>
+               </div>
+            </div>
+            <div class="footer__contacts">
+               <p class="footer__contact">Адрес: <span class="footer__contact-value">Профсоюзная, 22/10 к1</span></p>
+               <p class="footer__contact">
+                  Телефон: <span class="footer__contact-value">+7 977 320-88-88</span>
+                  <a href="#" class="footer__social">
+                     <img src="../img/Telegram.svg" alt="Telegram">
+                  </a>
+                  <a href="#" class="footer__social">
+                     <img src="../img/Whatsapp.svg" alt="Whatsapp">
+                  </a>
+               </p>
+            </div>
+            <div class="footer__cooperation">
+               <p class="footer__cooperation-text">По вопросам сотрудничества</p>
+               <p class="footer__cooperation-text"><span class="footer__cooperation-value">Коммерческие предложения
+                     можно направить в группу ВК или в Телеграм</span></p>
+            </div>
+            <div class="footer__actions">
+               <a href="#" class="footer__btn button">Забронировать</a>
+               <a href="#" class="footer__social-btn">
+                  <img src="../img/Vk.png" alt="VK">
+               </a>
+            </div>
+         </div>
+         <div class="footer__map">
+            <iframe
+               src="https://yandex.ru/map-widget/v1/?ll=37.565362%2C55.680961&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NjY2OTI1MRJH0KDQvtGB0YHQuNGPLCDQnNC-0YHQutCy0LAsINCf0YDQvtGE0YHQvtGO0LfQvdCw0Y8g0YPQu9C40YbQsCwgMjIvMTDQujEiCg3vQhZCFU25XkI%2C&z=16.75"
+               width="560" height="400" frameborder="1" allowfullscreen="true"></iframe>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
